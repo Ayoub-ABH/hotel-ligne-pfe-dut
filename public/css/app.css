@@ -1,0 +1,282 @@
+/************** start upper-bar **************/
+.btn-r{
+    background-color: tomato;
+    color: white;
+    border-radius: 0.25em;
+    margin: 1px;
+
+}
+.bg-blue{
+    background-color: blue;
+}
+.up-title{
+    color: white;
+}
+.cw {
+    color: white;
+}
+/************** end upper-bar **************/
+
+/************** start nav-bar **************/
+.navbar-brand span:first-child{
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+
+}
+.navbar-brand span:last-child{
+    font-size: 30px;
+    color:blue;
+}
+.fb{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
+    color:red;
+}
+/************** end  nav-bar **************/
+
+
+/**************  start home  **************/
+/**************  start slider-area **************/
+.SliderArea{
+    height: 80vh;
+}
+
+.SliderArea .carousel-inner .book-room{
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    left: 240px;
+    padding: 20px;
+}
+
+@media( max-width: 768px ){
+    .SliderArea .carousel-inner .book-room{
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 30px;
+    right: 30px;
+    padding: 20px;
+    justify-content: center;
+    }
+}
+.SliderArea .carousel-inner  .bg-black{
+    background-color: #00000099;
+}
+.SliderArea .carousel-item{
+    background-size: cover;
+    height: 80vh;
+}
+.SliderArea .carousel-indicators li{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+}
+/************* end slider area **************/
+
+/************** start  card-cities **************/
+.citycards{
+    margin-top:100px;
+}
+.citycards .hotel-link{
+    color: white;
+}
+
+.citycards .card{
+    margin-top: 25px;
+}
+/************** end  card-cities **************/
+
+/************** start  card-hotel **************/
+.hotelcards{
+    margin-top:100px;
+    background-color: rgb(202, 198, 198);
+    padding-bottom: 25px;
+    margin-bottom: 100px;
+}
+.hotelcards .card{
+    margin-top: 25px;
+}
+.hotelcards .card .price{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+/************** end  card-hotel **************/
+/************** end home **************/
+
+/************** start footer **************/
+.footer{
+    background-color:#e67d7d33;
+}
+/************** end footer **************/
+
+/************** start hotel **************/
+/************** start hotel-card **************/
+.hotel-content .hotel-card{
+    margin-bottom: 20px;
+}
+.hotel-content .hotel-aside .list-group .list-group-item .list-group-item-action :active{
+    z-index: 2;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.hotel-content .hotel-card .price{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+/************** start hotel-card **************/
+
+/************** start hotel-slider **************/
+.hotel-slider .slider{
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+.hotel-slider .slider .title{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    background-color: hsl(240deg 100% 50% / 38%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    top: 50%;
+    left: 30px;
+    padding: 5px;
+    border: 1px solid white;
+}
+.hotel-slider .book-hotel{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(0 0 0 / 50%);
+    color: white;
+    border-radius: .5rem;
+}
+/************** end hotel-slider **************/
+/************** end hotel **************/
+
+/************** start hotel-details **************/
+/************** start hotel-slider **************/
+.room-slider .slider{
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+.room-slider .slider .title{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    background-color: hsl(240deg 100% 50% / 38%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    top: 50%;
+    left: 30px;
+    padding: 5px;
+    border: 1px solid white;
+}
+/************** end hotel-slider **************/
+
+.hotel-details{
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+}
+
+.hotel-details .image{
+    height:440px;
+
+}
+.hotel-details .price{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.hotel-details .hotel-aside .table th{
+    padding: 5px;
+}
+.hotel-details .hotel-aside .table td{
+    padding: 5px;
+}
+.hotel-details .hotel-aside .table tr .value{
+    color: red;
+    font-weight: bold;
+}
+.hotel-details .hotel-aside .table tr td .value-statut{
+    color: white;
+    font-weight: bold;
+    background-color: #0000ff80;
+    padding: 5px;
+}
+/************** start hotel-rooms **************/
+.room-list .reservation{
+    margin-top: 20px;
+
+}
+
+.room-list .reservation .ml-10{
+    margin-left: 260px;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+.room-list .reservation .ml-11{
+    margin-left: 200px;
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+.room-list .price{
+    color:red;
+    font-weight: bold;
+    font-size: 18px;
+}
+/************** end hotel-rooms **************/
+/************** end hotel-details **************/
+
+/************** start contact **************/
+.contact .text-blue{
+        color: blue;
+        font-weight: bold;
+    }
+.contact .contact-form {
+    margin-bottom: 30px;
+}
+.contact .contact-form .card{
+    margin-top: 30px;
+}
+.contact .slider{
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+.contact .slider .title{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    background-color: hsl(240deg 100% 50% / 38%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    top: 50%;
+    left: 30px;
+    padding: 5px;
+    border: 1px solid white;
+}
+/************** end conatct **************/
+
+
+
+
+
+
